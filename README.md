@@ -40,7 +40,7 @@ npm install
 
 ```bash
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/tiktok
+MYSQL=mysqlmysqldb://localhost:3001/tiktok
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_URL=your_cloudinary_url
 ```
