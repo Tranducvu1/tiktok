@@ -1,86 +1,70 @@
+# Getting Started with Create React App
 
-# TikTok Clone with React.js
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The TikTok Clone app is built with React.js, allowing users to view and upload videos, interact with videos through features like liking and commenting.
+## Available Scripts
 
-## Description
+In the project directory, you can run:
 
-This app simulates the basic features of TikTok, including:
+### `npm start`
 
-- **Watch Videos**: Browse videos uploaded by other users.
-- **Upload Videos**: Users can upload their own videos.
-- **Interact**: Like and comment on videos.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies Used
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Frontend**: React.js
-- **Backend**: Java
-- **Database**: MySQL
-- **State Management**: Redux
-- **Video Processing**: Multer (middleware for handling multipart/form-data, primarily used for file uploads)
+### `npm test`
 
-## Installation and Running the Application
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 1. Install the Backend
-- **Clone the repository**:
+### `npm run build`
 
-```bash
-git clone https://github.com/Tranducvu1/tiktok.git
-cd tiktok
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Install dependencies**:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-cd backend
-npm install
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Configure environment variables**: Create a `.env` file in the backend folder and add the following variables:
+### `npm run eject`
 
-```bash
-PORT=5000
-MYSQL=mysqlmysqldb://localhost:3001/tiktok
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_URL=your_cloudinary_url
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- **Run the server**:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-npm start
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### 2. Install the Frontend
-- **Install dependencies**:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-cd frontend
-npm install
-```
+## Learn More
 
-- **Configure the API endpoint**: In the file `src/utils/api.js`, update the backend URL:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```javascript
-const API_URL = 'http://localhost:5000/api';
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **Run the React app**:
+### Code Splitting
 
-```bash
-npm start
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- **Access the app**: Open your browser and go to [http://localhost:3000](http://localhost:3000) to use the app.
+### Analyzing the Bundle Size
 
-## Features
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- **Watch Videos**: Browse videos with infinite scrolling.
-- **Upload Videos**: Upload videos from your computer to the server.
-- **Interact**: Like and comment on videos.
+### Making a Progressive Web App
 
-## Development Guidelines
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- **Add New Features**: Create new React components in the `frontend/src/components` folder and update routes in `frontend/src/App.js`.
-- **State Management**: Use Redux for global state management. Actions and reducers are defined in `frontend/src/redux`.
-- **API Integration**: Use Axios for communicating with the backend. API functions are defined in `frontend/src/utils/api.js`.
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

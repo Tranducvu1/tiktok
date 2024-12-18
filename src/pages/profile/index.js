@@ -1,10 +1,5 @@
 function Profile() {
-    return (
-        <div>
-            <h1>Profile</h1>
-            <p>This is the home page</p>
-        </div>
-    );
+    return <h2>Profile page</h2>;
 }
 
 export default Profile;
